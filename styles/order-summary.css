@@ -1,0 +1,181 @@
+
+.card {
+    max-width: 425px;
+    min-width: 425x;
+    background-color: white;
+    margin: 50px auto;
+    position: relative;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    box-shadow: 2px 20px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    
+    z-index: 9;
+    margin: 0;
+    min-height: 250px;    
+    border-radius: inherit;
+}
+
+.card-body {
+        
+    background-color: white;
+    top: 0;
+    left: 0;
+    height: 66%;    
+    margin: 0;
+    border-radius: inherit;
+    padding: 25px 50px;
+}
+
+.hero-image {
+
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    border-radius: 25px 25px 0 0;
+}
+
+.order-summary-title {
+    font-weight: 900;
+    text-align: center;    
+    font-size: 3vh;
+    color: hsl(223, 47%, 23%);
+}
+
+.info-text {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 25px;    
+}
+
+.plan-info {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-music {
+    float: left;
+    margin-right: 15px;
+}
+
+.plan-detail {
+    vertical-align: top;
+    color: hsl(224, 23%, 55%);
+    font-weight: 400;
+}
+
+span.annual-plan {
+    font-weight: bolder;
+    color: hsl(223, 47%, 23%);    
+}
+
+.detail-block {
+    width: 175px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin: 0;
+
+}
+
+.change-plan  {    
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.change-plan a {
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);    
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+.change-plan a:hover {
+    color: hsl(258, 23%, 55%);
+    text-decoration: none;
+}
+
+.btn-proceed-to-payment {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: bold;    
+    box-shadow: 2px 10px 20px hsl(258, 23%, 55%, 0.5);
+}
+
+.btn-proceed-to-payment:hover {
+    background-color: hsl(258, 23%, 55%);    
+}
+
+.cancel-order {
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.cancel-order a {
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);    
+    text-decoration: none;    
+}
+
+.cancel-order a:hover {    
+    color: hsl(223, 47%, 23%);    
+    font-weight: bolder;    
+}
+
+body {
+    font-family:'RedHatDisplay';
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;    
+    background-color: hsl(225, 100%, 94%);
+    background-blend-mode: darken;
+    font-size: 16px;
+    
+}
+
+
+@font-face {
+    font-family: RedHatDisplay;    
+    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf');    
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RedHatDisplay;    
+    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf');
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: RedHatDisplay;    
+    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: RedHatDisplay;    
+    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-ExtraBold.ttf');    
+    font-weight: 900;
+    font-style: normal;
+}
