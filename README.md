@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://shangum.github.io/Order-Summary-Component-Challenge-Frontend-Mentor/)
+- Solution URL: [Hosted By Github Pages](https://shangum.github.io/Order-Summary-Component-Challenge-Frontend-Mentor/)
 
 ## My process
 
