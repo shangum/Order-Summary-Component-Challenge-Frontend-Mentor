@@ -13,8 +13,7 @@
 }
 
 .card-header {
-    
-    z-index: 9;
+        
     margin: 0;
     min-height: 250px;    
     border-radius: inherit;
