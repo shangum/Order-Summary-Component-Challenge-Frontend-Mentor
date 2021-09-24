@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://shangum.github.io/Order-Summary-Component-Challenge-Frontend-Mentor/)
 
 ## My process
 
@@ -50,7 +49,7 @@ Creating the mini layout that contained the music icon and the Annual plan etc w
  <div class="plan-info">
           <div>
             <p class="detail-block">
-            <img src="images/icon-music.svg" class="icon-music"/>
+            <img src="images/icon-music.svg" class="icon-music" alt="Listening to music with headphones"/>
             <span class="plan-detail annual-plan">Annual Plan</span> <br/>
             <span class="plan-detail">$59.99/year</span></p>
           </div>
