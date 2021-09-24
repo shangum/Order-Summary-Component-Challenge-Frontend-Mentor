@@ -140,7 +140,7 @@ span.annual-plan {
 
 body {
     font-family:'RedHatDisplay';
-    background-image: url('/images/pattern-background-desktop.svg');
+    background-image: url('../images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-size: contain;    
     background-color: hsl(225, 100%, 94%);
@@ -152,14 +152,14 @@ body {
 
 @font-face {
     font-family: RedHatDisplay;    
-    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf');    
+    src: url('../fonts/Red_Hat_Display/static/RedHatDisplay-SemiBold.ttf');    
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: RedHatDisplay;    
-    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf');
+    src: url('../fonts/Red_Hat_Display/static/RedHatDisplay-Regular.ttf');
     font-weight: 500;
     font-style: normal;
 
@@ -168,14 +168,14 @@ body {
 
 @font-face {
     font-family: RedHatDisplay;    
-    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-Bold.ttf');
+    src: url('../fonts/Red_Hat_Display/static/RedHatDisplay-Bold.ttf');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: RedHatDisplay;    
-    src: url('/fonts/Red_Hat_Display/static/RedHatDisplay-ExtraBold.ttf');    
+    src: url('../fonts/Red_Hat_Display/static/RedHatDisplay-ExtraBold.ttf');    
     font-weight: 900;
     font-style: normal;
 }
